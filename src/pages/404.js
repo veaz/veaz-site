@@ -21,7 +21,7 @@ const FourOhFour = () => {
       <Center>
         <SuperText size='3em'>CuatroCeroCuatro</SuperText>
         <p>Me parece que andas un poco perdido.</p>
-        <Link to='/'>Go Home</Link>
+        <Link to='/'>Ve a inicio.</Link>
       </Center>
     </Layout>
   )

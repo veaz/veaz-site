@@ -26,25 +26,25 @@ const IndexPage = ({
   <Layout>
     <Container>
       <SEO title="Victor Aguilar ~ VEAZ" />
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       <SuperText>Hola</SuperText>
       <div>
-        <h1>Mi nombre es Victor Aguilar.</h1>
+        <h1>Mi nombre es Victor Aguilar, mi alter ego veaz.</h1>
         <p>
-          Explorando las criptomonedas y todo lo que implica.
+        Soy un Programador novato pero en constante aprendizaje, HTML, CSS, Javascript son lenguajes que manejo. En ocasiones diseño en Illustrator, tambien se editar en Photoshop y un poco de edicion de videos en Affter Effects.
         </p>
         <p>
-          Dedicando mi tiempo libre a {' '}
-          <a href="http://criptoexplora.com">Cripto Explora</a>.
+        Dedicando mi tiempo libre a explorar todo el Universo Cripto que inicio Bitcoin, con todo lo que eso conlleva, investigar, analizar, invertir y opinar.
         </p>
 
         <RecentPostsContainer>
-          <h1 className="title">En ocasiones escribo</h1>
+          <h1 className="title">A veces escribo cosas</h1>
           <div id="recent-posts">
             {edges.map(post => (
               <PostListing key={post.node.id} {...post.node.frontmatter} />
             ))}
           </div>
-        </RecentPostsContainer>
+          </RecentPostsContainer>
       </div>
     </Container>
   </Layout>
