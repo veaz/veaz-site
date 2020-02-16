@@ -29,9 +29,9 @@ const IndexPage = ({
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       <SuperText>Hola</SuperText>
       <div>
-        <h1>Mi nombre es Victor Aguilar, mi alter ego veaz.</h1>
+        <h1>Mi nombre es Victor Aguilar, seudonimo veaz.</h1>
         <p>
-        Soy un Programador novato pero en constante aprendizaje, HTML, CSS, Javascript son lenguajes que manejo. En ocasiones diseño en Illustrator, tambien se editar en Photoshop y un poco de edicion de videos en Affter Effects.
+        Soy un Programador novato pero en constante aprendizaje, HTML, CSS, Javascript son lenguajes que manejo. En ocasiones diseño en Illustrator, se editar en Photoshop y un poco de edicion de videos en Affter Effects.
         </p>
         <p>
         Dedicando mi tiempo libre a explorar todo el Universo Cripto que inicio Bitcoin, con todo lo que eso conlleva, investigar, analizar, invertir y opinar.
